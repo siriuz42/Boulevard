@@ -13,3 +13,8 @@ library(treeClust)
 library(plotrix)
 ```
 
++ limiting.R : 
++ lambda.R : 
++ kernelRidge.R : 
++ performance.R : 
++ performance4.R : 
