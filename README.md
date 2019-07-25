@@ -43,7 +43,7 @@ The arguments here are
 + `Y`: training labels
 + `ntree`: number of trees in the ensemble
 + `lambda`: the `lambda` value mentioned in the algorithm. As a shrinkage parameter, it is preferable to have a `lambda` close to 1.
-+ `subsample`: sampling rate, if needed.
++ `subsample`: subsampling rate, if needed.
 + `xtest`: testing covariates, if needed.
 + `ytest`: testing labels, if needed.
 + `leaf.size`: the minimal leaf size used in the trees to allow a split.
