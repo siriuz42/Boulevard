@@ -49,5 +49,9 @@ The arguments here are
 + `leaf.size`: the minimal leaf size used in the trees to allow a split.
 + `method`: how a Boulevard tree is built. Default is `random`, a randomized decision tree built by assigning random `y` values to the training covariates then running CART. It can also be `standard` which is adaptive.
 
-
-
+The output model, which can be later used to make predictions on new covariates is a list consisting of the following entries.
++ `model$trees:` the decision trees built by Boulevard
++ `model$mse`: MSE curve against the number of trees on the training data
++ `model$testmse`: if provided, MSE curve against the number of trees on the testing data
++ `model$lambda`: `lambda` value used in Boulevard boosting
++ `model$sigma2`: MSE of the entire ensemble, used as the estimator of the error variance
