@@ -99,4 +99,4 @@ predict.boulevard.structure.vec <- function(blv, newdata)
 ```r
 predict.boulevard.variance <- function(blv, newdata, narrow = FALSE)
 ```
-The third argument `narrow` decides which eigenvalue we use for the inverse matrix in the KKR form. It can be set to `TRUE` to give more aggresive results.
+The square root of the return value can be used as the half length. The third argument `narrow` decides which eigenvalue we use for the inverse matrix in the KKR form. It can be set to `TRUE` to give more aggresive results.
